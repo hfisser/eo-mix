@@ -8,16 +8,10 @@ from glob import glob
 from S1Prep.S1Prep import S1Prep
 from copernicus_finder.S1_search_download import download_sentinel_products
 
-USR = "henrik.fisser@uit.no"
-PW = "ImmAdibUiT@Tm2022"
-SECRET = "HA4W WT2I PIZD OULQ NQ2D KN3U ONUF C3CK"
+USR = YOUR E-MAIL
+PW = YOUR PASSWORD
+SECRET = YOUR CLIENT SECRET
 
-#parser = argparse.ArgumentParser(prog="DownloadAndPrepare")
-#try:
-#    parser.add_argument("file_acquisitions", type=str)
-#    parser.add_argument("dir_data_s1", type=str)
-#    args = parser.parse_args()
-#except:
 args = dict()
 args["file_acquisitions"] = "/media/henrik/DATA/FS_Cruise_2024/data/acquisition_records/s1_acquisitions_2024-07-23_122930_2024-07-24_122930.gpkg"
 args["dir_data_s1"] = "/media/henrik/DATA/FS_Cruise_2024/data/s1"
